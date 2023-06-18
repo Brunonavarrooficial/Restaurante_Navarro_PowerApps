@@ -1,0 +1,27 @@
+{
+  "8a9dde95-e15a-4e37-b8cf-cce5597676db": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://fmuedubr.sharepoint.com/sites/PowerAppsRestaurante": {
+        "dataSources": {
+          "ListaPedidos": {
+            "tableName": "e294247f-336b-496c-a6c5-cc035ce91cfd"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ListaPedidos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "8a9dde95-e15a-4e37-b8cf-cce5597676db"
+  }
+}
